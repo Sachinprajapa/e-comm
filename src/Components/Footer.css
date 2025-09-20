@@ -1,0 +1,33 @@
+
+.footer {
+ 
+  padding: 40px 20px 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+      background-color: #7ac3ef;
+}
+.footer-content1 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+ 
+}
+
+.footer-box h3, .footer-box h2 {
+  margin-bottom: 10px;
+}
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-box ul li {
+  margin: 6px 0;
+  cursor: pointer;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #fcfafa;
+  padding-top: 10px;
+}

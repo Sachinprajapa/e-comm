@@ -1,0 +1,94 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.logo-icon {
+  font-size: 28px;
+  margin-right: 8px;
+  color: #1DA1F2; /* blue icon */
+}
+
+/* Menu Links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-links li a.active {
+  color: #1DA1F2;
+  font-weight: bold;
+}
+
+/* Cart Section */
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+.cart span {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Hamburger Icon */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar{
+    width: 87%;
+  }
+  .cart{
+    margin-left: 45%;
+  }
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #1DA1F2;
+  }
+
+  .cart span {
+    display: none; /* mobile पर सिर्फ icon रहेगा */
+  }
+}
