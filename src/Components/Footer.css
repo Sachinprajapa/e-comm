@@ -31,3 +31,9 @@
   border-top: 1px solid #fcfafa;
   padding-top: 10px;
 }
+@media (max-width: 600px){
+  .footer-box1{
+    margin-top: 216px;
+        margin-left: -229px;
+  }
+}

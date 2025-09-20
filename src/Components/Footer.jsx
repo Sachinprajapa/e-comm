@@ -59,7 +59,7 @@ function Footer(){
             </div>
 
             {/* Our Offers */}
-            <div className="footer-box">
+            <div className="footer-box1">
               <h3>Our Offers</h3>
               <ul>
                 <li>About Us</li>

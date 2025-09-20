@@ -172,6 +172,7 @@ width: 199px;
 
   .sidebar {
     padding: 10px;
+    margin-left:45px;
   }
 
   .product-card {
@@ -186,5 +187,12 @@ width: 199px;
   .pagination button {
     padding: 5px 10px;
     font-size: 14px;
+  }
+  .size-filters{
+    margin-right: 105px;
+        font-size: 22px;
+  }
+  .color-filters span{
+    margin-left: 45px;
   }
 }
